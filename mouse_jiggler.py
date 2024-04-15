@@ -22,6 +22,7 @@ def move_mouse():
     pyautogui.moveTo(original_x, original_y, duration=0.5)
 
     print(f"current pos: {original_x, original_y}")
+    
 
 # main event loop
 def jiggle_mouse(interval):
