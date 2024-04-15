@@ -29,7 +29,8 @@ def jiggle_mouse(interval):
     while True:
         move_mouse()
         time.sleep(interval)
-        
+
+
 # main
 def main():
     print("Running mouse jiggler...")
@@ -38,6 +39,7 @@ def main():
 
     # Start the mouse jiggler
     jiggle_mouse(jiggle_period)
+    
 
 if __name__ == "__main__":
     main()
