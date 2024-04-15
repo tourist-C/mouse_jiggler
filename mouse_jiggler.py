@@ -6,7 +6,7 @@ mouse_offset_x = 10
 mouse_offset_y = 10
 jiggle_period = 5 # seoncds
 
-
+# defines mouse movement
 def move_mouse():
     # Get the current mouse position
     original_x, original_y = pyautogui.position()
@@ -23,25 +23,20 @@ def move_mouse():
 
     print(f"current pos: {original_x, original_y}")
 
-
+# main event loop
 def jiggle_mouse(interval):
     while True:
         move_mouse()
         time.sleep(interval)
-
+        
+# main
 def main():
-    
-
     print("Running mouse jiggler...")
     print("Press ctrl+c to quit")
-
     print(f"period: {jiggle_period} x: {mouse_offset_x}, y: {mouse_offset_y}")
 
-    # Set the interval between mouse jiggles in seconds
-    jiggle_interval = jiggle_period
-
     # Start the mouse jiggler
-    jiggle_mouse(jiggle_interval)
+    jiggle_mouse(jiggle_period)
 
 if __name__ == "__main__":
     main()
