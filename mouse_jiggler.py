@@ -35,7 +35,7 @@ def jiggle_mouse(interval):
 def main():
     print("Running mouse jiggler...")
     print("Press ctrl+c to quit")
-    print(f"period: {jiggle_period} x: {mouse_offset_x}, y: {mouse_offset_y}")
+    print(f"Period: {jiggle_period}, x: {mouse_offset_x}, y: {mouse_offset_y}")
 
     # Start the mouse jiggler
     jiggle_mouse(jiggle_period)
