@@ -4,7 +4,7 @@ import time
 # config
 mouse_offset_x = 10
 mouse_offset_y = 10
-jiggle_period = 5 # seoncds
+jiggle_period = 5 # seconds
 
 # defines mouse movement
 def move_mouse():
