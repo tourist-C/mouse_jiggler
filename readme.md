@@ -9,3 +9,11 @@ https://github.com/tourist-C/mouse_jiggler/releases/download/v1.0.0/mouse_jiggle
 
 ## Usage
 Double click the .exe to start the application.
+
+## Request for Proposal
+- Client requested a application that jiggles mouse movement periodically
+- OS is unknown, assumed windows
+- There is no specific requirement for the movement
+
+## Known Issues
+- Antivirus, Chrome browser, Windows security measures attempted to block the delivery and running of the .exe. This is reasonable but makes UX terrible.
